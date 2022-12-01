@@ -97,17 +97,17 @@
           "name": "RouteView1",
           "pattern": ":?query:",
           "target": [
-            "TargetView1"
+            "app"
           ]
         }
       ],
       "targets": {
-        "TargetView1": {
+        "app": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "View1",
-          "viewName": "View1"
+          "viewId": "app",
+          "viewName": "app"
         }
       }
     },
